@@ -281,6 +281,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
 
 		.row > * {
@@ -1757,11 +1758,12 @@ input, select, textarea {
 		}
 
 	.row > section, .row > article {
+
 		margin-bottom: 0;
 	}
 
 	header {
-		margin: 0 0 1em 0;
+		margin: 0 0 3em 0;
 	}
 
 		header > p {
@@ -1774,6 +1776,50 @@ input, select, textarea {
 
 	footer {
 		margin: 2.5em 0 0 0;
+	}
+
+	#calorias{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.botao{
+		background-color: #483949;
+		border-radius: 5px;
+		border: 0;
+		height: 30px;
+		width: 150px;
+		padding-left: 10px;
+		font-size: 15px;
+		font-weight: bold;
+		margin: 5px;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	#calculadora{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: 15px;
+	}
+
+	#caloriasf p{
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	#botoes{
+		display: flex;
+		width: 250px;
+		justify-content: space-between;
+	}
+
+	#total{
+		margin-top: 5px;
+		text-align: center;
 	}
 
 /* Image */
@@ -2047,7 +2093,10 @@ input, select, textarea {
 			}
 
 /* Button */
-
+	.fa-circle-check{
+		color: white;
+		margin-right: 10px;
+	}
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -2060,11 +2109,11 @@ input, select, textarea {
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
+		padding: 0.85em 2em 0.85em 2em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 700;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2095,7 +2144,6 @@ input, select, textarea {
 			.button.alt:hover {
 				background: #3B353C;
 			}
-
 /* Post */
 
 	.post.stub {
@@ -2169,7 +2217,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			padding-top: 25px;
+			padding-top: 15px;
 		}
 
 /* Header */
@@ -3139,3 +3187,4 @@ input, select, textarea {
 					}
 
 	}
+
